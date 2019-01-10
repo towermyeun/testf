@@ -2,6 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: my-deploy-fluxed
+  namespace: flux
   labels:
     app: myapp
 spec:
