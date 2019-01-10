@@ -1,11 +1,11 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: my-deploy
+  name: my-deploy-fluxed
   labels:
     app: myapp
 spec:
-  replicas: 5
+  replicas: 2
   selector:
     matchLabels:
       app: myapp
