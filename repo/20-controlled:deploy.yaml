@@ -2,7 +2,6 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: my-deploy-fluxed
-  namespace: controlled
   labels:
     app: myapp
 spec:
