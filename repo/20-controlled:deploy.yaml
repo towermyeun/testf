@@ -25,6 +25,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: myapp-service
+  namespace: controlled
 spec:
   selector:
     app: myapp
